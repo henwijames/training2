@@ -87,6 +87,7 @@
   justify-content: center;
 
   .gethired-content {
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -345,17 +346,46 @@ footer {
     }
   }
 
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+      width: 100%;
+      webkit-box-shadow: 6px 2px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 6px 2px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 6px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+
   .gethired {
+    padding: 80px 40px;
     .gethired-content {
       text-align: center;
+
+      h1 {
+        font-size: 32px;
+      }
+      h3 {
+        font-size: 22px;
+      }
+      a {
+        width: 100%;
+      }
     }
   }
 
   .howitworks {
+    .howitworks-title {
+      h1 {
+        font-size: 24px;
+      }
+    }
     .howitworks-content {
       flex-direction: column;
-
       .howitworks-card {
+        flex-direction: column;
         .card {
           width: 220px;
           height: 220px;
@@ -380,6 +410,17 @@ footer {
           .desc {
             font-size: 12px;
           }
+        }
+      }
+      .howitworks-text {
+        display: flex;
+        flex-direction: column;
+        h1 {
+          font-size: 24px;
+          text-align: center;
+        }
+        a {
+          width: 100%;
         }
       }
     }
