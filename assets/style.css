@@ -589,7 +589,9 @@ footer {
   }
 
   .howitworks {
+    height: 100vh;
     .howitworks-title {
+      margin-bottom: -40px;
       h1 {
         font-size: 24px;
       }
@@ -597,7 +599,6 @@ footer {
     .howitworks-content {
       flex-direction: column;
       .howitworks-card {
-        flex-direction: column;
         .card {
           width: 220px;
           height: 220px;
