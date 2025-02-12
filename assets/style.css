@@ -3,30 +3,30 @@
   --secondary-color: #000000;
   --primary-text: #000000;
   --secondary-text: #ffffff;
-  --primary-font: "TT Fors Trial", sans-serif;
+  --primary-font: "TT Fors", sans-serif;
 }
 
 @font-face {
   font-family: "TT Fors";
-  src: url("fonts/TT Fors Trial Regular.ttf") format("ttf");
+  src: url("fonts/TT Fors Trial Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "TT Fors";
-  src: url("fonts/TT Fors Trial Medium.ttf") format("ttf");
+  src: url("fonts/TT Fors Trial Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "TT Fors";
-  src: url("fonts/TT Fors Trial Bold.ttf") format("ttf");
+  src: url("fonts/TT Fors Trial Bold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "TT Fors";
-  src: url("fonts/TT Fors Trial ExtraBold.ttf") format("ttf");
+  src: url("fonts/TT Fors Trial ExtraBold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
