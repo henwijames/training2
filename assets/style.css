@@ -6,6 +6,31 @@
   --primary-font: "TT Fors Trial", sans-serif;
 }
 
+@font-face {
+  font-family: "TT Fors";
+  src: url("fonts/TT Fors Trial Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Fors";
+  src: url("fonts/TT Fors Trial Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Fors";
+  src: url("fonts/TT Fors Trial Bold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Fors";
+  src: url("fonts/TT Fors Trial ExtraBold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
