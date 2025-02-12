@@ -524,7 +524,9 @@ footer {
   }
 
   .howitworks {
+    padding: 10% 10%;
     .howitworks-title {
+      margin-bottom: -40px;
       h1 {
         font-size: 24px;
       }
@@ -633,7 +635,7 @@ footer {
 
   .howitworks {
     .howitworks-title {
-      margin-bottom: -40px;
+      margin-bottom: -30px;
       h1 {
         font-size: 24px;
       }
@@ -698,6 +700,27 @@ footer {
       }
       h3 {
         text-align: center;
+      }
+    }
+  }
+
+  .hiring {
+    .hiring-title {
+      h3 {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+    }
+    .hiring-content {
+      .hiring-card {
+        .title {
+          font-size: 22px;
+        }
+        .desc {
+          font-size: 16px;
+        }
       }
     }
   }
