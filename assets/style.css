@@ -122,13 +122,13 @@
 /* Section 3: How it works page */
 .howitworks {
   width: 100%;
-  height: 100vh;
   background-image: url("img/section3-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 15% 0;
 }
 
 .howitworks h3 {
@@ -151,7 +151,6 @@
 }
 .howitworks .howitworks-title {
   text-align: center;
-  margin-top: 5%;
 }
 
 .howitworks-content .howitworks-card {
@@ -248,7 +247,7 @@
   position: absolute;
   left: 10%;
   bottom: 0;
-  width: 550px;
+  width: 500px;
 }
 
 .hiring {
@@ -338,7 +337,27 @@ footer {
     }
   }
 }
+@media (max-width: 1400px) {
+  .hero-image {
+    img {
+      display: none;
+    }
+  }
 
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-buttons {
+    a {
+      box-shadow: 7px 7px 5px -4px rgba(0, 0, 0, 0.55);
+      -webkit-box-shadow: 7px 7px 5px -4px rgba(0, 0, 0, 0.55);
+      -moz-box-shadow: 7px 7px 5px -4px rgba(0, 0, 0, 0.55);
+    }
+  }
+}
 @media (max-width: 1200px) {
   .hero-image {
     img {
@@ -377,7 +396,6 @@ footer {
   }
 
   .howitworks {
-    height: 50vh;
     .howitworks-title {
       h1 {
         font-size: 32px;
@@ -589,7 +607,6 @@ footer {
   }
 
   .howitworks {
-    height: 100vh;
     .howitworks-title {
       margin-bottom: -40px;
       h1 {
