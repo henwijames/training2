@@ -38,6 +38,11 @@
   font-family: var(--primary-font);
 }
 
+header {
+  z-index: 1000;
+  transition: background 0.1s ease-in-out;
+}
+
 .hero {
   background-image: url(img/hero-background.png);
   width: 100%;
@@ -57,11 +62,6 @@
 
 .signup {
   background: rgb(7, 207, 201) !important;
-}
-
-.hero-content {
-  height: 70%;
-  display: flex;
 }
 
 .hero-text {
@@ -384,6 +384,13 @@ footer {
   }
 }
 @media (max-width: 1200px) {
+  header {
+    background: white;
+  }
+
+  .nav-item .signup {
+    margin-left: 0 !important;
+  }
   .hero-image {
     img {
       width: 400px;
