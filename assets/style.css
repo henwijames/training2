@@ -60,8 +60,17 @@ header {
   color: var(--primary-color) !important;
 }
 
+.button:hover {
+  background: #05a8a3 !important;
+}
+
 .signup {
-  background: rgb(7, 207, 201) !important;
+  background: var(--primary-color) !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.signup:hover {
+  background: #05a8a3 !important;
 }
 
 .hero-text {
@@ -89,6 +98,11 @@ header {
   background: var(--primary-color) !important;
   color: var(--secondary-text) !important;
   font-weight: 500;
+  transition: all 0.1s ease-in-out;
+}
+
+.hero-buttons .button:hover {
+  background: #05a8a3 !important;
 }
 
 .hero-image {
@@ -112,7 +126,6 @@ header {
   justify-content: center;
 
   .gethired-content {
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,6 +153,11 @@ header {
   font-size: 1.5rem;
   padding: 5px 80px !important;
   border-radius: 10px !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.gethired .gethired-content a:hover {
+  background: #05a8a3 !important;
 }
 
 /* Section 2 End */
@@ -225,6 +243,11 @@ header {
   font-weight: 500;
   color: 16px;
   padding: 8px 30px;
+  transition: all 0.1s ease-in-out;
+}
+
+.howitworks-text .button:hover {
+  background: #05a8a3 !important;
 }
 
 .talktous {
@@ -239,7 +262,7 @@ header {
 }
 
 .talktous-content {
-  margin-left: 30%;
+  padding-left: 50%;
 }
 
 .talktous h3 {
@@ -266,6 +289,7 @@ header {
   font-size: 1.5rem;
   padding: 5px 80px !important;
   border-radius: 10px !important;
+  text-decoration: none;
 }
 
 .talktous img {
@@ -388,6 +412,10 @@ footer {
     background: white;
   }
 
+  .button {
+    width: 100%;
+  }
+
   .nav-item .signup {
     margin-left: 0 !important;
   }
@@ -411,7 +439,6 @@ footer {
   }
 
   .gethired {
-    padding: 80px 40px;
     .gethired-content {
       text-align: center;
 
@@ -463,12 +490,13 @@ footer {
       }
       .howitworks-text {
         display: flex;
+        justify-content: center;
         flex-direction: column;
         h1 {
           font-size: 24px;
           text-align: center;
         }
-        a {
+        .button {
           width: 100%;
         }
       }
@@ -476,8 +504,6 @@ footer {
   }
 
   .talktous {
-    padding: 0px 40px;
-
     img {
       display: none;
     }
@@ -486,7 +512,7 @@ footer {
       display: flex;
       justify-content: center;
       flex-direction: column;
-      margin: 0;
+      padding: 0;
       h1 {
         text-align: center;
       }
@@ -514,7 +540,6 @@ footer {
   }
 
   .gethired {
-    padding: 80px 40px;
     .gethired-content {
       text-align: center;
 
@@ -531,7 +556,6 @@ footer {
   }
 
   .howitworks {
-    padding: 10% 10%;
     .howitworks-title {
       margin-bottom: -40px;
       h1 {
@@ -569,22 +593,21 @@ footer {
         }
       }
       .howitworks-text {
+        width: 100%;
         display: flex;
         flex-direction: column;
         h1 {
           font-size: 24px;
           text-align: center;
         }
-        a {
-          width: 100%;
+        .button {
+          margin-top: 10px;
         }
       }
     }
   }
 
   .talktous {
-    padding: 0px 40px;
-
     img {
       display: none;
     }
@@ -683,16 +706,11 @@ footer {
           font-size: 24px;
           text-align: center;
         }
-        a {
-          width: 100%;
-        }
       }
     }
   }
 
   .talktous {
-    padding: 0px 40px;
-
     img {
       display: none;
     }
